@@ -25,11 +25,11 @@ use Illuminate\Support\Collection;
 class UserResource extends Resource
 {
     protected static ?string $model = User::class;
-
-    protected static ?string $navigationLabel = "Employees";
+    
     protected static ?string $navigationGroup = "Empleados";
-
-    protected static ?int $navigationSort = 2;
+    protected static ?string $navigationLabel = "Employees";
+    protected static ?int $navigationSort = 1;
+    
 
 
     protected static ?string $navigationIcon = 'heroicon-o-users';
